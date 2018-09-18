@@ -1,0 +1,284 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 210px;
+    border-bottom: 5px solid #ebebeb;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.nav-link {
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444444 !important;
+}
+
+.active .nav-link {
+    color: #627b5b !important;
+}
+
+.carousel-item {
+    height: 665px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.carousel-content {
+    position: absolute;
+    padding-top: 117px;
+    padding-left: 130px;
+    width: 505px;
+    text-transform: uppercase;
+}
+
+.carousel-content h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+}
+
+.carousel-content h3 {
+    color: #fffdc7;
+    font-size: 17px;
+    background: rgb(123, 52, 60, 0.8);
+    padding: 11px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.carousel-content h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.carousel-content p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: initial;
+    line-height: 1.9;
+    padding-top: 32px;
+}
+
+.carousel-content a {
+    color: #fffdc7;
+    text-transform: initial;
+    font-size: 16px;
+}
+
+.carousel-indicators {
+    left: auto !important;
+    right: auto !Important;
+    width: 400px;
+    cursor: pointer;
+    padding-bottom: 54px;
+    padding-left: 80px;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background: transparent !important;
+    border: 1px solid white;
+    margin-right: 9px;
+}
+
+.carousel-indicators .active {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background: white !important;
+    border: 1px solid white;
+}
+
+.welcome-bg {
+    background-image: url(../images/bg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f4f4f4;
+}
+
+.welcome-content {
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 55px;
+}
+
+.welcome-content h2 {
+    padding-bottom: 12px;
+    font-size: 31px;
+}
+
+.welcome-content p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #666666;
+    line-height: 1.1;
+}
+
+.services-area {
+    display: flex;
+    position: relative;
+}
+
+.services-text {
+    text-align: center;
+    padding-top: 72px;
+    letter-spacing: 1.5px;
+}
+
+.services-text p {
+    font-size: 25px;
+    color: #666666;
+    font-weight: 300;
+}
+
+.services {
+    text-align: center;
+    padding: 30px 87px;
+    color: #525252;
+}
+
+.services img {
+    width: 64px;
+}
+
+.service1 p {
+    padding-top: 30px;
+}
+
+.service2 p {
+    padding-top: 24px;
+}
+
+.service3 img {
+    padding-top: 7px;
+    width: 80px;
+}
+
+.service3 p {
+    padding-top: 37px;
+}
+
+.service4 p {
+    padding-top: 30px;
+}
+
+.listing-bg {
+    background-image: url(../images/bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #380f16;
+    padding: 75px 200px;
+}
+
+.listing h2 {
+    color: white;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.list-item {
+    background-color: #0c0102;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 27px;
+    margin-bottom: 30px;
+}
+
+
+.list-item p {
+    margin-top: 15px;
+}
+
+.footer {
+    border-top: 5px solid #363636;
+    background-color: #111111;
+}
+
+.footer-content {
+    padding: 30px 87px;
+    font-weight: 300;
+}
+
+.logo img {
+    width: 200px;
+    padding-top: 47px;
+    padding-left: 13px;
+    padding-bottom: 13px;
+}
+
+.logo p {
+    color: #818181;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.contact {
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.contact h2 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 31px;
+
+}
+
+.contact p {
+    color: #c1c1c1;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.links {
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+.links h2 {
+    color: white;
+    font-size: 31px;
+    padding-bottom: 10px;
+}
+
+.links p {
+    color: #c1c1c1;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    color: #c1c1c1;
+    list-style: none;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+ul .active {
+    color: #f5f4c0;
+}

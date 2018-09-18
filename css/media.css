@@ -1,0 +1,42 @@
+@media screen and (max-width:575px) {
+    header {
+        padding: 16px 0px;
+    }
+
+    .carousel-content {
+        padding-right: 15px;
+        width: auto;
+    }
+    
+    .carousel-indicators {
+        width: auto;
+        padding-bottom: 0px;
+    }
+    
+    .services {
+        padding: 0px 0px;
+    }
+    
+    .listing-bg {
+        padding: 75px 0px;
+    }
+    
+    .logo {
+        padding-left: 0px;
+    }
+    
+    .contact {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header {
+        padding: 16px 0px;
+    }
+
+    .carousel-content {
+        padding-left: 0px;
+    }
+
+}
